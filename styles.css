@@ -1,0 +1,33 @@
+/* .image-board {
+    display: inline-block;
+    width: 70%;
+}
+.img {
+    height: 38rem;
+}
+.start-button {
+    display: inline-block;
+} */
+
+#chessboard {
+    width: 560px;
+    height: 560px;
+    display: inline-block;
+}
+.chess-square {
+    float: left;
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+
+}
+.text {
+    text-align: center;
+    position: fixed;
+    top: 10rem;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    display: inline-block;
+}
